@@ -4,6 +4,7 @@
   "description": "2048 ssh server node implymented",
   "main": "2048.js",
   "scripts": {
+    "start": "node 2048",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
