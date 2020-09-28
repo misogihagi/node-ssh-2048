@@ -97,7 +97,7 @@ module.exports = new Promise((resolve, reject) => {
         }).on('end', function () {
           console.log('Client disconnected');
         });
-      }).listen(process.env.PORT || 8022 '127.0.0.1', function () {
+      }).listen(process.env.PORT || 8022, '127.0.0.1', function () {
         console.log('Listening on port ' + this.address().port);
       });
     } catch (err) {
